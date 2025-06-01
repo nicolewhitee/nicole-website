@@ -1,0 +1,118 @@
+#about {
+    overflow: hidden;
+    padding-top: 2rem;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.skillText {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    animation: fadeIn ease-in-out 2s forwards;
+}
+
+.headerTitle {
+    font-size: 4vmax;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillCard {
+    padding: 2em !important;
+    background: rgba(177, 203, 227, 0.5);
+    color: white;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.experienceBars {
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.experienceBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+
+.awardsBar {
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgba(151, 189, 234, 0.5);
+}
+
+.skillBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+}
+
+.experienceBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.skill-col-expand {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+@media screen and (max-width:1000px) {
+    .skill-col-expand {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .experienceBars {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    .skillBarHeaderText {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-shrink {
+        font-size: 5vw;
+    }
+
+    .experienceBarImg {
+        display: none;
+    }
+}

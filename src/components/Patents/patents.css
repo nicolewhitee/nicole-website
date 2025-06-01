@@ -1,0 +1,50 @@
+#patents {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.patentsTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.patentDescr {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.seeMoreBtn {
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+}
+
+.seeMoreBtn:visited {
+    color: black;
+}
+
+.seeMoreBtn:hover {
+    background: #4a81cf;
+}
+
+.patentCardLightBlue {
+    padding: 2em !important;
+    background: rgba(177, 203, 227, 0.5);
+    color: white;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+    flex-grow: 1;
+}
