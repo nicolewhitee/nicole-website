@@ -41,22 +41,14 @@ const About = () => {
             <div className='container'>
                 <div className="revealText">
                     <div class="m-2">
-                        Jeff is an experienced technology executive with proven record of accomplishment. He has successfully
-                        designed and commercialized new technologies, services and business models. He has experience in
-                        modern artificial intelligence, cloud native, communications and information technologies and has
-                        developed technology strategies to successfully build new capabilities that address emerging ecosystems.
-                        He has an adaptive approach to leadership challenges, focused on building value at an accelerating level.
-                        Jeff is an active support of community serving as past Chairman of North Texas regional technology council
-                        Board and IEEE Senior Member.
-                    </div>
-                    <br />
-                    <div class="m-2">
-                        Jeff has held senior roles at early-stage artificial intelligence/machine reasoning-based robotic
-                        process automation technology providers and served as CTO of Elefante Group, a stratospheric wireless
-                        communications platform.  He also held senior positions at Hewlett Packard Enterprise, Ericsson and
-                        Alcatel-Lucent where he led technology initiatives, solutions development, business development and
-                        services delivery.  Prior, Jeff worked at Cingular Wireless and BellSouth in technology and operations
-                        roles.
+                        Results-driven software engineer with a strong foundation in 3D visualization
+                        programming and software development principles. Completed my Master's degree
+                        in Computer Science from the University of Central Florida with a focus in
+                        visualization. Recently accepted into the competitive Engineering Leadership
+                        Development Program at Lockheed Martin where I have completed technical development
+                        curriculum and attended leadership development conferences, while taking on increasing
+                        responsibility in my current role. Passionate about problem-solving, optimizing code
+                        efficiency, and staying up to date with emerging technologies.
                     </div>
                 </div>
             </div>
@@ -68,7 +60,7 @@ const About = () => {
                             <div className="skillCard">
                                 <img src={ArtificialIntelligence} alt="Artificial Intelligence" className="skillBarImg" />
                                 <div className="skillBarHeaderText">
-                                    <div className="h2">Artificial Intelligence (AI)</div>
+                                    <div className="h2">Embedded Software</div>
                                 </div>
                             </div>
                     </div>
@@ -76,7 +68,7 @@ const About = () => {
                             <div className="skillCard">
                                 <img src={EdgeCompute} alt="Edge Compute" className="skillBarImg" />
                                 <div className="skillBarHeaderText">
-                                    <div className="h2">Edge Compute</div>
+                                    <div className="h2">Modeling and Simulation</div>
                                 </div>
                             </div>
                     </div>
@@ -84,7 +76,7 @@ const About = () => {
                             <div className="skillCard">
                                 <img src={Telecommunications} alt="Telecommunications" className="skillBarImg" />
                                 <div className="skillBarHeaderText">
-                                    <div className="h2 text-shrink">Telecommunications</div>
+                                    <div className="h2">UI/UX Development</div>
                                 </div>
                             </div>
                     </div>
@@ -92,7 +84,15 @@ const About = () => {
                         <div className="skillCard">
                             <img src={SoftwareArchitecture} alt="Software Architecture" className="skillBarImg" />
                             <div className="skillBarHeaderText">
-                                <div className="h2">Modern Software Architecture</div>
+                                <div className="h2">Network Security</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="skill-col-expand">
+                        <div className="skillCard">
+                            <img src={SoftwareArchitecture} alt="Software Architecture" className="skillBarImg" />
+                            <div className="skillBarHeaderText">
+                                <div className="h2">Agile Development</div>
                             </div>
                         </div>
                     </div>
@@ -192,7 +192,7 @@ const About = () => {
                 </div>
             </div>
 
-            <span className="headerTitle text-center" aria-level="1" role="heading">Awards and Recognition</span>
+            <span className="headerTitle text-center" aria-level="1" role="heading">Education</span>
             <div className="container text-center">
                 <div className="awardsBar">
                     <div>

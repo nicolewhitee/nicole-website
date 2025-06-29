@@ -15,8 +15,8 @@ const Navbar = () => {
             <div className="desktopMenu">
                 <Link activeClass='activeNavbar' to='intro' spy={true} offset={-100} duration={200} className="desktopMenuListItem" role="button">Home</Link>
                 <Link activeClass='activeNavbar' to='about' spy={true} offset={-50} duration={200} className="desktopMenuListItem" role="button">About</Link>
-                <Link activeClass='activeNavbar' to='patents' spy={true} offset={-50} duration={200} className="desktopMenuListItem" role="button">Patents</Link>
-                <Link activeClass='activeNavbar' to='presentations' spy={true} offset={-50} duration={200} className="desktopMenuListItem" role="button">Presentations</Link>
+                <Link activeClass='activeNavbar' to='projects' spy={true} offset={-50} duration={200} className="desktopMenuListItem" role="button">Projects</Link>
+                <Link activeClass='activeNavbar' to='certifications' spy={true} offset={-50} duration={200} className="desktopMenuListItem" role="button">Certifications</Link>
             </div>
             <button className="desktopMenuBtn" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
@@ -27,8 +27,8 @@ const Navbar = () => {
             <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
                 <Link activeClass='activeNavbar' to='intro' spy={true} offset={-100} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Home</Link>
                 <Link activeClass='activeNavbar' to='about' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">About</Link>
-                <Link activeClass='activeNavbar' to='patents' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Patents</Link>
-                <Link activeClass='activeNavbar' to='presentations' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Presentations</Link>
+                <Link activeClass='activeNavbar' to='projects' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Projects</Link>
+                <Link activeClass='activeNavbar' to='certifications' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Certifications</Link>
                 <Link activeClass='activeNavbar' to='contact' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Contact</Link>
             </div>
         </nav>

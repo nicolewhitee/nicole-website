@@ -26,13 +26,15 @@
 }
 
 .introName {
-    font-size: 3rem;
+    font-style: italic;
+    font-size: 4rem;
     font-weight: 700;
-    color: #4a81cf;
+    font-family: 'Arapey', serif;
+    color: var(--green-main);
 }
 
 .titleText {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -58,11 +60,11 @@
 }
 
 .yellowBtn:visited {
-    color: black;
+    color: var(--green-main);
 }
 
 .yellowBtn:hover {
-    background: #4a81cf;
+    background: var(--green-main);
 }
 
 @media screen and (max-width:840px) {

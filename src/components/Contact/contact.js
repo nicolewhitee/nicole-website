@@ -1,5 +1,4 @@
 import './contact.css';
-import twitterIcon from '../../assets/twitter.png';
 import linkedInIcon from '../../assets/linkedin.png';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
@@ -50,7 +49,7 @@ const Contact = () => {
         validateMessageContent();
 
         if (sendMessage) {
-            emailjs.sendForm('service_zf7ce9f', 'template_f28vzpq', form.current, 'LxgKr7pP3nRMDurse')
+            emailjs.sendForm('service_zfzihrl', 'template_f28vzpq', form.current, 'LxgKr7pP3nRMDurse')
                 .then((result) => {
                     console.log(result.text);
                     e.target.reset();
@@ -77,11 +76,8 @@ const Contact = () => {
                     <p>{emailMessageStatus}</p>
                     <button type="submit" value="Send" className='submitBtn'>Submit</button>
                     <div className="links">
-                        <a href="https://www.linkedin.com/in/wjeffwhite/" target="_blank" rel="noreferrer" aria-label="Linked In">
+                        <a href="https://www.linkedin.com/in/nicole-white4584/" target="_blank" rel="noreferrer" aria-label="Linked In">
                             <img src={linkedInIcon} alt="LinkedIn" className="link" />
-                        </a>
-                        <a href="https://twitter.com/wjeffwhite?s=11&t=WfdM9Plu8tEwtS6ePJjaVQ" target="_blank" rel="noreferrer" aria-label="Twitter">
-                            <img src={twitterIcon} alt="Twitter" className="link" />
                         </a>
                     </div>
                 </form>

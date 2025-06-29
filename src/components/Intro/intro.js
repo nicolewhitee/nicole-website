@@ -45,10 +45,12 @@ const Intro = () => {
         <section id="intro">
             <div className="introContent">
                 <div className="revealText">
-                    <div className="introName" aria-level="1" role="heading">Jeff White</div>
-                    <div className="titleText" aria-level="2" role="heading">AI Factory and AI Edge Product Lead</div>
-                    <div className="titleText" aria-level="2" role="heading">at Dell Technologies</div>
-                    <div className="introPara">Experienced technology executive with proven record of accomplishment</div>
+                    <div className="introName" aria-level="1" role="heading">Hi. I'm Nicole.</div>
+                    <div className="titleText" aria-level="2" role="heading">GNC Modeling and Simulation Engineer</div>
+                    <div className="titleText" aria-level="2" role="heading">at Lockheed Martin.</div>
+                    <div className="introPara">
+                        I'm passionate about designing user interfaces that are engaging, accessible, and user focused.
+                    </div>
                 </div>
                 <button className="yellowBtn" onClick={() => {
                     document.getElementById('about').scrollIntoView({ behavior: 'smooth' });

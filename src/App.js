@@ -1,8 +1,8 @@
 import Navbar from "./components/NavBar/navbar";
 import Intro from './components/Intro/intro';
 import About from "./components/About/about";
-import Patents from "./components/Patents/patents";
-import Presentations from "./components/Presentations/presentations"
+import Projects from "./components/Projects/projects";
+import Certifications from "./components/Certifications/certifications";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 
@@ -12,8 +12,8 @@ function App() {
             <Navbar />
             <Intro />
             <About />
-            <Patents />
-            <Presentations />
+            <Projects />
+            <Certifications />
             <Contact />
             <Footer />
         </div>

@@ -7,8 +7,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --green-main: hsla(172, 95%, 18%, 1);
+    --green-secondary: hsla(172, 95%, 18%, 1);
+    --beige: hsla(36, 31%, 90%, 1);
+}
+
 body {
-    background: rgb(30, 30, 30) !important;
+    background: var(--beige) !important;
     color: white !important;
     overflow: hidden !important;
     overflow-y: scroll !important;

@@ -71,7 +71,7 @@
 }
 
 .submitBtn:hover {
-    background: #4a81cf;
+    background: var(--green-main);
 }
 
 .links {
